@@ -23,3 +23,4 @@ const calculateSumNumberInString = function (sentence) {
   console.log(result);
   
   // Nothing has been changed
+  // Some more blablablagit
