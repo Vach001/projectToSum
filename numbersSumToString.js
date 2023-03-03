@@ -4,7 +4,7 @@ const calculateSumNumberInString = function (sentence) {
   
     for (let i = 0; i < sentence.length; i++) {
       const currentIndex = sentence[i];
-      const isNaN = Number.isNaN(+currentIndex)
+      const isNaN = Number.isNaN(+currentIndex);
       
       if (isNaN) {
         sumOfNumber += +temp;
@@ -22,3 +22,4 @@ const calculateSumNumberInString = function (sentence) {
   const result = calculateSumNumberInString('Wert12lop2-12');
   console.log(result);
   
+  // Nothing has been changed
